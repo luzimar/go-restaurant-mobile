@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+
 import api from '../../services/api';
 import formatValue from '../../utils/formatValue';
 
@@ -39,14 +40,15 @@ const Favorites: React.FC = () => {
       }));
       setFavorites(response);
     }
-
     loadFavorites();
   }, []);
+
   async function handleNavigate(id: number): Promise<void> {
     navigation.navigate('FoodDetails', {
       id,
     });
   }
+
   return (
     <Container>
       <Header>

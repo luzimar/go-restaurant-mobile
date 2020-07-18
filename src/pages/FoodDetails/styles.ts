@@ -6,8 +6,17 @@ export const Container = styled.View`
 `;
 
 export const Header = styled.View`
+<<<<<<< HEAD
   padding: 30px 0px;
   background: #c72828;
+=======
+  padding: 40px 24px 20px;
+  background: #c72828;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+>>>>>>> a8288ecb9df46e1cdcbb976679417bd4525853e0
 `;
 
 export const ScrollContainer = styled.ScrollView.attrs({
@@ -35,7 +44,10 @@ export const FoodImageContainer = styled.View`
   overflow: hidden;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
+<<<<<<< HEAD
   align-items: center;
+=======
+>>>>>>> a8288ecb9df46e1cdcbb976679417bd4525853e0
 `;
 
 export const FoodContent = styled.View`

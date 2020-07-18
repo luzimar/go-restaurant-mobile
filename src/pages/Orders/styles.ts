@@ -16,8 +16,16 @@ export const Container = styled.View`
 `;
 
 export const Header = styled.View`
+<<<<<<< HEAD
   padding: 60px 0px;
   background: #c72828;
+=======
+  padding: 60px 24px 60px;
+  background: #c72828;
+
+  display: flex;
+  align-items: center;
+>>>>>>> a8288ecb9df46e1cdcbb976679417bd4525853e0
 `;
 
 export const HeaderTitle = styled.Text`
@@ -27,7 +35,10 @@ export const HeaderTitle = styled.Text`
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
+<<<<<<< HEAD
   text-align: center;
+=======
+>>>>>>> a8288ecb9df46e1cdcbb976679417bd4525853e0
 `;
 
 export const FoodsContainer = styled.View`
@@ -37,7 +48,11 @@ export const FoodsContainer = styled.View`
 
 export const FoodList = styled(FlatList as new () => FlatList<Product>)`
   flex: 1;
+<<<<<<< HEAD
   padding: 0px 20px;
+=======
+  padding: 0 20px;
+>>>>>>> a8288ecb9df46e1cdcbb976679417bd4525853e0
 
   margin-top: 16px;
 `;
