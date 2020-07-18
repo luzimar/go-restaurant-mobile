@@ -10,11 +10,7 @@ export const Container = styled.View`
 `;
 
 export const Header = styled.View`
-<<<<<<< HEAD
   padding: 60px 24px;
-=======
-  padding: 60px 24px 60px;
->>>>>>> a8288ecb9df46e1cdcbb976679417bd4525853e0
   background: #c72828;
   display: flex;
   flex-direction: row;
@@ -25,10 +21,7 @@ export const Header = styled.View`
 export const FilterContainer = styled.View`
   padding: 0 24px;
   margin-top: -28px;
-<<<<<<< HEAD
   margin-bottom: 20px;
-=======
->>>>>>> a8288ecb9df46e1cdcbb976679417bd4525853e0
 `;
 
 export const Title = styled.Text`
@@ -41,13 +34,7 @@ export const Title = styled.Text`
   padding: 0 20px;
 `;
 
-<<<<<<< HEAD
 export const CategoryContainer = styled.View``;
-=======
-export const CategoryContainer = styled.View`
-  margin-top: 40px;
-`;
->>>>>>> a8288ecb9df46e1cdcbb976679417bd4525853e0
 
 export const CategorySlider = styled.ScrollView`
   margin-top: 16px;
@@ -84,11 +71,7 @@ export const CategoryItemTitle = styled.Text`
 `;
 
 export const FoodsContainer = styled.View`
-<<<<<<< HEAD
   margin-top: 20px;
-=======
-  margin-top: 40px;
->>>>>>> a8288ecb9df46e1cdcbb976679417bd4525853e0
 `;
 
 export const FoodList = styled.View`
@@ -111,10 +94,6 @@ export const FoodImageContainer = styled.View`
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   padding: 16px;
-<<<<<<< HEAD
-=======
-  height: 100%;
->>>>>>> a8288ecb9df46e1cdcbb976679417bd4525853e0
 `;
 
 export const FoodContent = styled.View`
